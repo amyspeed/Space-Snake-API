@@ -1,6 +1,5 @@
 'use strict'
 
-global.DATABASE_URL ='mongodb://localhost/ipa-app-test';
 const chai = require('chai');
 const chaiHttp = require('chai-http');
 const jwt = require('jsonwebtoken');
