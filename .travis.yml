@@ -1,0 +1,10 @@
+language: node_js
+node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: gA+ITfHtEFhSXEwst7+BLqQm0yi7gfa+JZ2RCEv6DuP18TlTdikdZgTgTyRBicg2y7Pb/lTD966YFyOzDxH5ge+opi2TGIvipLew/CnhEdYhZZACToYyUhjwVOecFGVCl0KjIQsK06xym4FOBSHQ6zHSl6wJ92uCNccd8MegRSFRUqfskj5jP6hOnAA7O8b/20EibLjITPaisYsq8GKvnyneFNpiaxr5I+1rP9zazoBiUgRSr0RtmZ/4Z79FgKCTxNJjXTWZlBtt7hYr6nW1bexywywlG3jC99c0yY3lxq01XRlS2DQeXwer2Q3bxw1Sfg3aF7sqlRwsC+ictZNpOdtUcuJDX/5gVrI7wQuXPnCHxQ9jSYwx3V9YsKKHgdOCwJSApDnA8l7P8+KNdLo896ZuUiAyrHoXje2X5bLUhVVmevuJkaHRMoWN5Zksc+330b9t4B8inAgfzu15mpSR4hue0EItt+kuxiMbFJINZ/DHcr8RIBcl+228VnFNrW2t1tGbUOwD0SKFCThuqil/bcyXt/ZiKXoPSe3v8R1dEbefatYg7Y51HDrhwTunxq8U/iHLI0iEviHiFyKNyly62RsREP5FcD+6HzXIbnc6UBaJ1ZkAQPE1/Mpail7OyC9U44jYm4CSawbi1IcxIDSkmSBVrhyyC6Ey2SXqZy8+mfk=
+  app: space-snake-api
+  on:
+    repo: amyspeed/Space-Snake-API
+  skip_cleanup: 'true'
